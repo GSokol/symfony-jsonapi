@@ -1,5 +1,5 @@
 {
-    "name": "nilportugues/jsonapi-bundle",
+    "name": "gsokol/jsonapi-bundle",
     "homepage": "http://nilportugues.com",
     "type": "library",
     "description": "Symfony 2 & 3 JSON API Transformer Package",
@@ -10,6 +10,11 @@
             "name": "Nil Portugués Calderó",
             "email": "contact@nilportugues.com",
             "role": "Project Lead Developer"
+        },
+        {
+            "name": "Grigorii Sokolik",
+            "email": "g.sokol99@g-sokol.info",
+            "role": "Customizer"
         }
     ],
     "autoload": {
@@ -19,7 +24,7 @@
     },
     "require": {
         "php": ">=5.5.0",
-        "nilportugues/json-api": "^2.4"
+        "gsokol/json-api": "dev-deploy"
     },
     "require-dev": {
         "symfony/symfony": "2.*",
@@ -28,5 +33,11 @@
     },
     "config": {
         "preferred-install": "dist"
-    }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/GSokol/php-json-api"
+        }
+    ]
 }
