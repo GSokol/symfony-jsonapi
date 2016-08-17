@@ -1,5 +1,5 @@
 {
-    "name": "nilportugues/jsonapi-bundle",
+    "name": "gsokol/jsonapi-bundle",
     "homepage": "http://nilportugues.com",
     "type": "library",
     "description": "Symfony 2 & 3 JSON API Transformer Package",
@@ -19,7 +19,7 @@
     },
     "require": {
         "php": ">=5.5.0",
-        "nilportugues/json-api": "^2.4"
+        "nilportugues/json-api": "dev-master"
     },
     "require-dev": {
         "symfony/symfony": "^2.0|^3.0",
